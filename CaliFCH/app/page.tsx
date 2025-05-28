@@ -1,7 +1,7 @@
 'use client';
 
 import { Card } from '@/components/ui/card';
-import { Building2, LandPlot, Scale, Building, Info, MessageCircle } from 'lucide-react';
+import { Building2, LandPlot, Scale, Building, Info, MessageCircle, MapPin, Flag, Globe, Briefcase, Map, Landmark, Sun, Waves, Anchor, Gavel, Handshake, TreePine, Mountain, Compass, Building2 as CityBuilding } from 'lucide-react';
 import Link from 'next/link';
 import { Footer } from '@/components/ui/footer';
 import FairChanceROICards from '@/components/FairChanceROICards';
@@ -19,7 +19,7 @@ export default function Home() {
     {
       name: 'San Francisco',
       description: 'San Francisco Fair Chance Ordinance',
-      icon: Building2,
+      icon: Landmark,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://sfo.rezmedemo.com/'
@@ -35,7 +35,7 @@ export default function Home() {
     {
       name: 'San Diego',
       description: 'San Diego County Fair Chance Ordinance',
-      icon: Building,
+      icon: Compass,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://sandiego.rezmedemo.com/'
@@ -43,7 +43,7 @@ export default function Home() {
     {
       name: 'Rhode Island',
       description: 'Rhode Island Fair Chance Hiring Laws',
-      icon: Building,
+      icon: Anchor,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://rhode-island.rezmedemo.com/'
@@ -51,7 +51,7 @@ export default function Home() {
     {
       name: 'Iowa',
       description: 'Iowa Fair Chance Hiring Laws',
-      icon: Building,
+      icon: Scale,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://iowa.rezmedemo.com/'
@@ -59,7 +59,7 @@ export default function Home() {
     {
       name: 'New York',
       description: 'New York City Fair Chance Act',
-      icon: Building,
+      icon: Building2,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://ny.rezmedemo.com/'
@@ -67,7 +67,7 @@ export default function Home() {
     {
       name: 'EEOC',
       description: 'Enforcement Guidance on the Consideration of Arrest and Conviction Records in Employment Decisions',
-      icon: Scale,
+      icon: Gavel,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://eeoc.rezmedemo.com/'
@@ -75,7 +75,7 @@ export default function Home() {
     {
       name: 'Restorative Record',
       description: 'Reach out to candidates for pre-adverse action responses or individualized assessments',
-      icon: MessageCircle,
+      icon: Handshake,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://cornell.restorativerecord.com/'

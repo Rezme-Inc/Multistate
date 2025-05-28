@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Fair Chance Hiring Compliance Portal',
-  description: 'A comprehensive portal for Fair Chance Hiringcompliance across multiple jurisdictions',
+  description: 'A comprehensive portal for Fair Chance Hiring compliance across multiple jurisdictions',
 };
 
 export default function RootLayout({

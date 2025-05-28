@@ -34,11 +34,35 @@ export default function Home() {
     },
     {
       name: 'San Diego',
-      description: 'San Diego Fair Chance Ordinance',
+      description: 'San Diego County Fair Chance Ordinance',
       icon: Building,
       color: 'bg-primary',
       textColor: 'text-primary',
       link: 'https://sandiego.rezmedemo.com/'
+    },
+    {
+      name: 'Rhode Island',
+      description: 'Rhode Island Fair Chance Hiring Laws',
+      icon: Building,
+      color: 'bg-primary',
+      textColor: 'text-primary',
+      link: 'https://rhode-island.rezmedemo.com/'
+    },
+    {
+      name: 'Iowa',
+      description: 'Iowa Fair Chance Hiring Laws',
+      icon: Building,
+      color: 'bg-primary',
+      textColor: 'text-primary',
+      link: 'https://iowa.rezmedemo.com/'
+    },
+    {
+      name: 'New York',
+      description: 'New York City Fair Chance Act',
+      icon: Building,
+      color: 'bg-primary',
+      textColor: 'text-primary',
+      link: 'https://ny.rezmedemo.com/'
     },
     {
       name: 'EEOC',
@@ -50,7 +74,7 @@ export default function Home() {
     },
     {
       name: 'Restorative Record',
-      description: 'Reach out to candidates for pre-adverse action response or individualized assessment',
+      description: 'Reach out to candidates for pre-adverse action responses or individualized assessments',
       icon: MessageCircle,
       color: 'bg-primary',
       textColor: 'text-primary',
@@ -106,28 +130,12 @@ export default function Home() {
 
           <div className="mt-16 text-center">
             <p className="text-secondary text-lg">
-              Ensure compliance with Fair Chance Hiring laws across California
+              Ensure multi-jurisdictional Fair Chance Hiring compliance.
             </p>
           </div>
         </div>
       </main>
 
-      <Card className="p-6 shadow-md rounded-2xl bg-white max-w-4xl mx-auto mb-12">
-        <div className="flex items-start gap-4">
-          <div className="bg-primary/10 p-3 rounded-lg">
-            <Info className="h-8 w-8 text-primary" />
-          </div>
-          <div>
-            <h2 className="text-xl font-semibold mb-3 text-gray-900">Fair Chance Act: Important Information</h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              The California Fair Chance Act (effective January 1, 2018) prohibits employers with five or more employees from inquiring about conviction history before making a job offer. This law is designed to reduce barriers to employment for individuals with criminal histories.
-            </p>
-            <p className="text-gray-700 leading-relaxed">
-              Important: Cities and municipalities within California have established their own specific guidelines and protocols. Employers must comply with both state-level requirements and any additional local regulations when hiring, recruiting, or advertising positions in these jurisdictions.
-            </p>
-          </div>
-        </div>
-      </Card>
       <Footer />
     </div>
   );
